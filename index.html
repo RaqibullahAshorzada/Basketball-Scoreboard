@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Basketball Scoreboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <div class="score-board">
+        <div class="first-count">
+            <div class="first-inner-count">
+                <h1 class="home-header">Team1</h1>
+                <h1 class="count-number" id="count-team1">0</h1>
+                <div class="count-incre-dire">
+                    <span onclick="team1Dice1()">+1</span>
+                    <span onclick="team1Dice2()">+2</span>
+                    <span onclick="team1Dice3()">+3</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second count button -->
+        <div class="second-count">
+            <div class="second-inner-count">
+                <h1 class="guest-header">Team2</h1>
+                <h1 class="count-number" id="count-team2">0</h1>
+                <div class="count-incre-dire">
+                    <span class="dice" id="dice1" onclick="team2Dice1()">+1</span>
+                    <span class="dice" id="dice2" onclick="team2Dice2()">+2</span>
+                    <span class="dice" id="dice3" onclick="team2Dice3()">+3</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Create a new Game button -->
+    <h2 id="new-game" onclick="newGame()">New Game</h2>
+    
+    
+<script src='basketballScoreBoard.js'></script>
+</body>
+</html>

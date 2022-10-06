@@ -1,0 +1,43 @@
+body {
+    width: 400px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.score-board {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+}
+
+.count-number {
+    border: 2px solid silver;
+    background-color:hsl(216, 24%, 53%);
+}
+
+span {
+    cursor: pointer;
+    border: 2px solid silver;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    /* background-color:hsl(216, 24%, 53%); */
+}
+span:hover {
+    background-color: hsl(180, 17%, 46%);
+}
+#new-game {
+    cursor: pointer;
+    padding: 10px;
+    background-color:rgb(95, 158, 160);
+    margin-top: 5px;
+    margin-left: 60px;
+}
+#new-game:hover {
+    background-color: rgb(33, 88, 89);
+}
